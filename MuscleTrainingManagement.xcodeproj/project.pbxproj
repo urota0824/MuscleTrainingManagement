@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0DC463AEC2ABB54B66EBEE86 /* Pods_MuscleTrainingManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96545BE848EF55CCA594B2A8 /* Pods_MuscleTrainingManagement.framework */; };
+		D8196EE12935E63E00463FE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8196EE02935E63E00463FE2 /* AppDelegate.swift */; };
+		D8196EE32935E63E00463FE2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8196EE22935E63E00463FE2 /* SceneDelegate.swift */; };
+		D8196EE82935E63E00463FE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8196EE62935E63E00463FE2 /* Main.storyboard */; };
+		D8196EEA2935E64000463FE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8196EE92935E64000463FE2 /* Assets.xcassets */; };
+		D8196EED2935E64000463FE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8196EEB2935E64000463FE2 /* LaunchScreen.storyboard */; };
+		D8196EF52935E97000463FE2 /* TopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8196EF42935E97000463FE2 /* TopViewController.swift */; };
+		D82C69122951F92400A67C62 /* SettingTopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82C69112951F92400A67C62 /* SettingTopViewController.swift */; };
+		D82C69142951F95300A67C62 /* SettingEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82C69132951F95300A67C62 /* SettingEditViewController.swift */; };
+		D82D07CF2941660E005E32FC /* AllRecordTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82D07CD2941660E005E32FC /* AllRecordTableViewCell.swift */; };
+		D82D07D02941660E005E32FC /* AllRecordTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D82D07CE2941660E005E32FC /* AllRecordTableViewCell.xib */; };
+		D8962874293641080072A9CE /* RecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8962873293641080072A9CE /* RecordViewController.swift */; };
+		D8962877293642100072A9CE /* RecordTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8962875293642100072A9CE /* RecordTableViewCell.swift */; };
+		D8962878293642100072A9CE /* RecordTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8962876293642100072A9CE /* RecordTableViewCell.xib */; };
+		D896287A293645B30072A9CE /* AllRecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8962879293645B30072A9CE /* AllRecordViewController.swift */; };
+		D8E11D472936D08E009E2B3D /* RecordModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E11D462936D08E009E2B3D /* RecordModel.swift */; };
+		D8E11D492936D671009E2B3D /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E11D482936D671009E2B3D /* EditViewController.swift */; };
+		D8EFAF3F294582C900E3C717 /* NewRegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8EFAF3E294582C900E3C717 /* NewRegistrationViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		488A623D89FDE9F1734E25A9 /* Pods-MuscleTrainingManagement.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuscleTrainingManagement.release.xcconfig"; path = "Target Support Files/Pods-MuscleTrainingManagement/Pods-MuscleTrainingManagement.release.xcconfig"; sourceTree = "<group>"; };
+		96545BE848EF55CCA594B2A8 /* Pods_MuscleTrainingManagement.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MuscleTrainingManagement.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8196EDD2935E63E00463FE2 /* MuscleTrainingManagement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MuscleTrainingManagement.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8196EE02935E63E00463FE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D8196EE22935E63E00463FE2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D8196EE72935E63E00463FE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D8196EE92935E64000463FE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D8196EEC2935E64000463FE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D8196EEE2935E64000463FE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8196EF42935E97000463FE2 /* TopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopViewController.swift; sourceTree = "<group>"; };
+		D82C69112951F92400A67C62 /* SettingTopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTopViewController.swift; sourceTree = "<group>"; };
+		D82C69132951F95300A67C62 /* SettingEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingEditViewController.swift; sourceTree = "<group>"; };
+		D82D07CD2941660E005E32FC /* AllRecordTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllRecordTableViewCell.swift; sourceTree = "<group>"; };
+		D82D07CE2941660E005E32FC /* AllRecordTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AllRecordTableViewCell.xib; sourceTree = "<group>"; };
+		D8962873293641080072A9CE /* RecordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordViewController.swift; sourceTree = "<group>"; };
+		D8962875293642100072A9CE /* RecordTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordTableViewCell.swift; sourceTree = "<group>"; };
+		D8962876293642100072A9CE /* RecordTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecordTableViewCell.xib; sourceTree = "<group>"; };
+		D8962879293645B30072A9CE /* AllRecordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllRecordViewController.swift; sourceTree = "<group>"; };
+		D8E11D462936D08E009E2B3D /* RecordModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordModel.swift; sourceTree = "<group>"; };
+		D8E11D482936D671009E2B3D /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
+		D8EFAF3E294582C900E3C717 /* NewRegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewRegistrationViewController.swift; sourceTree = "<group>"; };
+		FD5EBBFE4B09FDC3CAE5C7BE /* Pods-MuscleTrainingManagement.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuscleTrainingManagement.debug.xcconfig"; path = "Target Support Files/Pods-MuscleTrainingManagement/Pods-MuscleTrainingManagement.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D8196EDA2935E63E00463FE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DC463AEC2ABB54B66EBEE86 /* Pods_MuscleTrainingManagement.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55E155FED8D3E2A00958B81C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				96545BE848EF55CCA594B2A8 /* Pods_MuscleTrainingManagement.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D8196ED42935E63E00463FE2 = {
+			isa = PBXGroup;
+			children = (
+				D8196EDF2935E63E00463FE2 /* MuscleTrainingManagement */,
+				D8196EDE2935E63E00463FE2 /* Products */,
+				E94A863C8A56F9B9BE905876 /* Pods */,
+				55E155FED8D3E2A00958B81C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D8196EDE2935E63E00463FE2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D8196EDD2935E63E00463FE2 /* MuscleTrainingManagement.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D8196EDF2935E63E00463FE2 /* MuscleTrainingManagement */ = {
+			isa = PBXGroup;
+			children = (
+				D8196EE02935E63E00463FE2 /* AppDelegate.swift */,
+				D8196EE22935E63E00463FE2 /* SceneDelegate.swift */,
+				D8196EF42935E97000463FE2 /* TopViewController.swift */,
+				D8962879293645B30072A9CE /* AllRecordViewController.swift */,
+				D8962873293641080072A9CE /* RecordViewController.swift */,
+				D8E11D482936D671009E2B3D /* EditViewController.swift */,
+				D8EFAF3E294582C900E3C717 /* NewRegistrationViewController.swift */,
+				D82C69112951F92400A67C62 /* SettingTopViewController.swift */,
+				D82C69132951F95300A67C62 /* SettingEditViewController.swift */,
+				D8E11D462936D08E009E2B3D /* RecordModel.swift */,
+				D8196EE62935E63E00463FE2 /* Main.storyboard */,
+				D82D07CD2941660E005E32FC /* AllRecordTableViewCell.swift */,
+				D82D07CE2941660E005E32FC /* AllRecordTableViewCell.xib */,
+				D8962875293642100072A9CE /* RecordTableViewCell.swift */,
+				D8962876293642100072A9CE /* RecordTableViewCell.xib */,
+				D8196EE92935E64000463FE2 /* Assets.xcassets */,
+				D8196EEB2935E64000463FE2 /* LaunchScreen.storyboard */,
+				D8196EEE2935E64000463FE2 /* Info.plist */,
+			);
+			path = MuscleTrainingManagement;
+			sourceTree = "<group>";
+		};
+		E94A863C8A56F9B9BE905876 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FD5EBBFE4B09FDC3CAE5C7BE /* Pods-MuscleTrainingManagement.debug.xcconfig */,
+				488A623D89FDE9F1734E25A9 /* Pods-MuscleTrainingManagement.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D8196EDC2935E63E00463FE2 /* MuscleTrainingManagement */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8196EF12935E64000463FE2 /* Build configuration list for PBXNativeTarget "MuscleTrainingManagement" */;
+			buildPhases = (
+				61234DF66E3147C58BF0B371 /* [CP] Check Pods Manifest.lock */,
+				D8196ED92935E63E00463FE2 /* Sources */,
+				D8196EDA2935E63E00463FE2 /* Frameworks */,
+				D8196EDB2935E63E00463FE2 /* Resources */,
+				A0EF116D0E4E1C25A248F825 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MuscleTrainingManagement;
+			productName = MuscleTrainingManagement;
+			productReference = D8196EDD2935E63E00463FE2 /* MuscleTrainingManagement.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D8196ED52935E63E00463FE2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					D8196EDC2935E63E00463FE2 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = D8196ED82935E63E00463FE2 /* Build configuration list for PBXProject "MuscleTrainingManagement" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D8196ED42935E63E00463FE2;
+			productRefGroup = D8196EDE2935E63E00463FE2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D8196EDC2935E63E00463FE2 /* MuscleTrainingManagement */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D8196EDB2935E63E00463FE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8196EED2935E64000463FE2 /* LaunchScreen.storyboard in Resources */,
+				D8196EEA2935E64000463FE2 /* Assets.xcassets in Resources */,
+				D8962878293642100072A9CE /* RecordTableViewCell.xib in Resources */,
+				D82D07D02941660E005E32FC /* AllRecordTableViewCell.xib in Resources */,
+				D8196EE82935E63E00463FE2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		61234DF66E3147C58BF0B371 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MuscleTrainingManagement-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0EF116D0E4E1C25A248F825 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MuscleTrainingManagement/Pods-MuscleTrainingManagement-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MuscleTrainingManagement/Pods-MuscleTrainingManagement-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MuscleTrainingManagement/Pods-MuscleTrainingManagement-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D8196ED92935E63E00463FE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8E11D492936D671009E2B3D /* EditViewController.swift in Sources */,
+				D82C69142951F95300A67C62 /* SettingEditViewController.swift in Sources */,
+				D8196EF52935E97000463FE2 /* TopViewController.swift in Sources */,
+				D8196EE12935E63E00463FE2 /* AppDelegate.swift in Sources */,
+				D8196EE32935E63E00463FE2 /* SceneDelegate.swift in Sources */,
+				D8962877293642100072A9CE /* RecordTableViewCell.swift in Sources */,
+				D8E11D472936D08E009E2B3D /* RecordModel.swift in Sources */,
+				D82D07CF2941660E005E32FC /* AllRecordTableViewCell.swift in Sources */,
+				D8962874293641080072A9CE /* RecordViewController.swift in Sources */,
+				D8EFAF3F294582C900E3C717 /* NewRegistrationViewController.swift in Sources */,
+				D82C69122951F92400A67C62 /* SettingTopViewController.swift in Sources */,
+				D896287A293645B30072A9CE /* AllRecordViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D8196EE62935E63E00463FE2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8196EE72935E63E00463FE2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D8196EEB2935E64000463FE2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8196EEC2935E64000463FE2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D8196EEF2935E64000463FE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D8196EF02935E64000463FE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D8196EF22935E64000463FE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD5EBBFE4B09FDC3CAE5C7BE /* Pods-MuscleTrainingManagement.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JVBXTKDCY5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MuscleTrainingManagement/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MuscleTrainingManagement.MuscleTrainingManagement;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D8196EF32935E64000463FE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 488A623D89FDE9F1734E25A9 /* Pods-MuscleTrainingManagement.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JVBXTKDCY5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MuscleTrainingManagement/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MuscleTrainingManagement.MuscleTrainingManagement;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D8196ED82935E63E00463FE2 /* Build configuration list for PBXProject "MuscleTrainingManagement" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8196EEF2935E64000463FE2 /* Debug */,
+				D8196EF02935E64000463FE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8196EF12935E64000463FE2 /* Build configuration list for PBXNativeTarget "MuscleTrainingManagement" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8196EF22935E64000463FE2 /* Debug */,
+				D8196EF32935E64000463FE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D8196ED52935E63E00463FE2 /* Project object */;
+}
